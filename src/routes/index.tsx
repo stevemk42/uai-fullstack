@@ -1,5 +1,7 @@
 import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
+import SignOut from "~/components/SignOut";
+import SignUp from "~/components/SignUp";
 
 export default function Home() {
   return (
@@ -20,6 +22,9 @@ export default function Home() {
           About Page
         </A>{" "}
       </p>
+      <SignUp />
+      <SignOut />
+
     </main>
   );
 }
